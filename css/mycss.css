@@ -1,0 +1,86 @@
+*{
+	margin:0;
+	padding:0;
+	}
+	
+.wrapView{
+	width:600px;
+	height:400px;
+	background:#F00;
+	position:relative;
+	margin:0 auto;
+	overflow:hidden;
+	}
+	
+.imgList{
+	position:absolute;
+	top:0;
+	left:0;
+	width:4200px;
+	height:400px;
+	left:-600px;
+	}
+	
+.imgTag{
+	display:block;
+	float:left;
+
+	}
+	
+.btnL{
+	width:30%;
+	height:100%;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E5%9B%BE%E7%89%87%E8%BD%AE%E6%92%AD%E5%9B%BE/img/btn_l.png)center center no-repeat;
+	position:absolute;
+	left:0;
+	opacity:0;
+	}
+.btnL:hover{
+	opacity:1;
+	cursor:pointer;
+	}
+	
+.btnR{
+	width:30%;
+	height:100%;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E5%9B%BE%E7%89%87%E8%BD%AE%E6%92%AD%E5%9B%BE/img/btn_R.png)center center no-repeat;
+	position:absolute;
+	right:0;
+	opacity:0;
+	}
+.btnR:hover{
+	opacity:1;
+	cursor:pointer;
+	}
+	
+	
+	
+.btnTag{
+	position:absolute;
+	width:400px;
+	height:20px;
+	bottom:20px;
+	text-align:center;
+	left:50%;
+	margin-left:-200px;
+	}
+
+.spanTag{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	background:#CCC;
+	border:1px solid #666;
+	margin-right:20px;
+	}
+.spanTag_current{
+	cursor:pointer;
+	background:#F60;
+	}
+	
+	
+	
+	
+	
+	

@@ -30,7 +30,7 @@
 .btnL{
 	width:30%;
 	height:100%;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E5%9B%BE%E7%89%87%E8%BD%AE%E6%92%AD%E5%9B%BE/img/btn_l.png)center center no-repeat;
+	background:url(../img/btn_l.png)center center no-repeat;
 	position:absolute;
 	left:0;
 	opacity:0;
@@ -43,7 +43,7 @@
 .btnR{
 	width:30%;
 	height:100%;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E5%9B%BE%E7%89%87%E8%BD%AE%E6%92%AD%E5%9B%BE/img/btn_R.png)center center no-repeat;
+	background:url(../img/btn_R.png)center center no-repeat;
 	position:absolute;
 	right:0;
 	opacity:0;
